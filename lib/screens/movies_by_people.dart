@@ -56,7 +56,9 @@ class _MoviesByPeopleState extends State<MoviesByPeople> {
             itemBuilder: (context, index) {
               List _movies = _data['results'];
               return MovieCard(
-                imageUrl: MovieApis.getImage(_movies[index]['backdrop_path']),
+                imageUrl: _movies[index]['backdrop_path'] == null
+                    ? 'https://i.stack.imgur.com/y9DpT.jpg'
+                    : MovieApis.getImage(_movies[index]['backdrop_path']),
                 name: _movies[index]['original_title'],
                 genre: '',
                 rating: _movies[index]['vote_average'].toString(),
