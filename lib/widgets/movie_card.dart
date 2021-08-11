@@ -54,7 +54,7 @@ class MovieCard extends StatelessWidget {
                       style: kContentStyle,
                     ),
                     SizedBox(
-                      height: 16,
+                      width: 4,
                     ),
                     Icon(
                       Icons.star,
@@ -82,11 +82,11 @@ class MovieCard extends StatelessWidget {
                       style: kContentStyle,
                     ),
                     SizedBox(
-                      height: 16,
+                      width: 4,
                     ),
                     Icon(
                       Icons.calendar_today,
-                      size: 17.5,
+                      size: 16,
                       color: Colors.white,
                     ),
                   ],
