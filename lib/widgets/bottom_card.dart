@@ -42,7 +42,7 @@ class _BottomCardState extends State<BottomCard> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                padding: const EdgeInsets.symmetric(horizontal: 32.0),
                 child: DropdownButton<int>(
                   dropdownColor: Colors.grey.shade900,
                   items: [
@@ -132,6 +132,7 @@ class _BottomCardState extends State<BottomCard> {
             '₹$amount.0',
             style: TextStyle(
               color: Colors.white,
+              fontSize: 20,
               fontWeight: FontWeight.bold,
             ),
           ),
