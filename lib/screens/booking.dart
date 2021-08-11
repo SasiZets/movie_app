@@ -71,7 +71,7 @@ class _BookingState extends State<Booking> {
                     primary: Colors.blue,
                   ),
                   child: Text(
-                    'Select Seats',
+                    'Book',
                     style: TextStyle(
                       fontSize: 19,
                     ),
