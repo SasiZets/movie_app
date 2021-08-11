@@ -1,16 +1,8 @@
 # movie_app
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the Project to your Pc which has Flutter Sdk Installed(With Path set globally). 
+2. Open the project using your Favorite IDE.
+3. Run "flutter pub get" in your terminal(path should be set to your project path).
+4. Connect your android device or boot up your emulator.
+5. Finally click on Run.
+6. Don't forget to mesmerize the beautiful recreation of the UI.
